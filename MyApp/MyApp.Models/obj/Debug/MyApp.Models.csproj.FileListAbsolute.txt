@@ -1,0 +1,5 @@
+C:\Users\Gaurav.Mahaur\Desktop\MyApp\MyApp.Models\bin\Debug\MyApp.Models.dll
+C:\Users\Gaurav.Mahaur\Desktop\MyApp\MyApp.Models\bin\Debug\MyApp.Models.pdb
+C:\Users\Gaurav.Mahaur\Desktop\MyApp\MyApp.Models\obj\Debug\MyApp.Models.csprojResolveAssemblyReference.cache
+C:\Users\Gaurav.Mahaur\Desktop\MyApp\MyApp.Models\obj\Debug\MyApp.Models.dll
+C:\Users\Gaurav.Mahaur\Desktop\MyApp\MyApp.Models\obj\Debug\MyApp.Models.pdb
