@@ -24,13 +24,13 @@ return (
     <div className="container">
         <div className="py-4">
             <h1>Employee List</h1>
-            <table class="table border shadow">
-  <thead class="thead-dark">
+            <table className="table border shadow">
+  <thead className="thead-dark">
     <tr>
       <th scope="col">#</th>
       <th scope="col">ID</th>
-      <th scope="col">Name</th>
-      <th scope="col">User Name</th>
+      <th scope="col">First Name</th>
+      <th scope="col">LastName</th>
       <th scope="col">Email</th>
       <th>Action</th>
     </tr>
@@ -45,9 +45,9 @@ return (
                 <td>{user.username}</td>
                 <td>{user.email}</td>
                 <td>
-                    <a class="btn btn-primary mr-2" href='/users/Details/'>View</a>
-                    <Link class= "btn btn-secondary mr-2" to={'/users/EditUser/'}>Edit</Link>
-                    <a class= "btn btn-danger mr-2" onClick={() => deleteUser(user.id)}>Delete</a>
+                    <Link className="btn btn-primary mr-2" to={`/users/Details/${user.id}`}>View</Link>
+                    <Link className= "btn btn-secondary mr-2" to={`/users/EditUser/${user.id}`}>Edit</Link>
+                    <Link className= "btn btn-danger mr-2" onClick={() => deleteUser(user.id)}>Delete</Link>
                 </td>
             </tr>
         ))

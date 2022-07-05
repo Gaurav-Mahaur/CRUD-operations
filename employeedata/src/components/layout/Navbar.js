@@ -7,9 +7,9 @@ const Navbar = () =>
     return(
         <nav className="navbar navbar-expand-lg bg-dark">
            <div className="container">
-             <a className = "btn btn-outline-danger mr-2" href ="">
-                My User
-             </a>
+             <NavLink className = "btn btn-outline-danger mr-auto" exact to ="">
+                My Industry
+             </NavLink>
         <button
           className="navbar-toggler"
           type="button"
@@ -26,14 +26,14 @@ const Navbar = () =>
           <ul className="navbar-nav   mr-auto">
             
             <li className="nav-item">
-            <a className="btn btn-outline-primary" href="/About">
-                EmployeeList
-            </a>
+            <NavLink className="btn btn-outline-primary" exact to="/About">
+                Employee Data
+            </NavLink>
             </li>
           </ul>
         </div>
 
-        <a className="btn btn-outline-primary" href ="/users/AddUser">Add Employee</a>
+        <NavLink className="btn btn-outline-primary" exact to ="/users/AddUser">Add Employee</NavLink>
       </div>
         </nav>
     )

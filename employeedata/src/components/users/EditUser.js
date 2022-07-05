@@ -25,7 +25,8 @@ const EditUser = () => {
   const onSubmit = async e => {
     e.preventDefault();
     await axios.put(`http://localhost:3005/users/${id}`, user);
-    navigate.push("/components/pages/About");
+    //this.props.navigation.navigate('/About')
+    navigate.push("/About");
   };
 
   const loadUser = async () => {

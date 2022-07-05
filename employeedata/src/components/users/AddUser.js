@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import axios from 'axios'
 import { useNavigate } from "react-router-dom";
+import { render } from "@testing-library/react";
 
 const AddUser = () => {
   let navigate = useNavigate();
@@ -20,7 +21,8 @@ const AddUser = () => {
   const onSubmit = async e => {
     e.preventDefault();
     await axios.post("http://localhost:3005/users", user);
-    navigate.push('/About');
+   
+   navigate.push('/About');
   };
   return (
     <div className="container">
