@@ -16,7 +16,9 @@ In this Project i have make a web application in which we can manage our data. W
 First i make a database in MS SQL Serval for storing my data and make a connection between sql server database and .net mvc using entity framework.
 Then i have implemented different Acton function in Home controllers for different action like create,edit, delete etc and also made views and layout of web app.
 
-## Demo Images
+## Website Link
+
+[CRUD APP](https://gauravreactapp.netlify.app/)
 
 ## Demo Video
 
