@@ -26,24 +26,24 @@ Then i have implemented different Acton function in Home controllers for differe
 
 ## ASP.NET mvc Demo
 
-### Get All Data
+## Get All Data
 
 
 ![gif](https://user-images.githubusercontent.com/93429968/179900207-0f2946cd-17d3-4d6e-b38a-a5709b12c68e.gif)
 
-### **Create Data**
+## Create Data
 
 ![gif (2)](https://user-images.githubusercontent.com/93429968/179901747-d6bc9105-bb25-49fc-864b-b1f576e7b6d5.gif)
 
-### **Edit Data**
+###  Edit Data
 
 ![gif (5)](https://user-images.githubusercontent.com/93429968/179901848-5a18dfac-54f7-489f-99fc-724ac22701f8.gif)
 
-### **Delete Data**
+## Delete Data
 
 ![gif (4)](https://user-images.githubusercontent.com/93429968/179901937-eade89f2-d8de-44be-9add-09b65939366b.gif)
 
-### **Details of Data**
+## Details of Data
 
 ![gif (3)](https://user-images.githubusercontent.com/93429968/179901964-31f3ccbc-2e5e-4def-a523-a022efb7ce0a.gif)
 
