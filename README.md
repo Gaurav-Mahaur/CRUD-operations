@@ -35,7 +35,7 @@ Then i have implemented different Acton function in Home controllers for differe
 
 ![gif (2)](https://user-images.githubusercontent.com/93429968/179901747-d6bc9105-bb25-49fc-864b-b1f576e7b6d5.gif)
 
-###  Edit Data
+## Edit Data
 
 ![gif (5)](https://user-images.githubusercontent.com/93429968/179901848-5a18dfac-54f7-489f-99fc-724ac22701f8.gif)
 
